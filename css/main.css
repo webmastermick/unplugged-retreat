@@ -92,6 +92,10 @@ textarea {
 }
 /*-----BASE HEADER AND FOOTER STYLES -----*/
 
+html{
+  font-size: 16px;
+}
+
 header,
 footer {
     display: flex;
@@ -130,6 +134,25 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
+
+body {
+       font-family: 'Open Sans', sans-serif;
+       font-size: 1em;
+}
+
+h2 {
+     font-family: 'Poppins', sans-serif;
+}
+
+h3,
+h4 {
+     font-family: 'Poppins', sans-serif;
+}
+
+a {
+     color: #e2e3ed;
+     text-decoration: none;
 }
 
 footer {
