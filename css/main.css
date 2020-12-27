@@ -472,6 +472,118 @@ aside {
 @@media only screen and (min-width: 1200px) {
   /*DESKTOP STYLES GO HERE*/
 
+  .content-wrapper {
+    max-width: 1200px;
+    margin: 100px 0;
+  }
+
+  header {
+    justify-content: center;
+  }
+
+  header .content-wrapper {
+      width: ;
+      justify-content: center;
+  }
+
+  header nav {
+      width:
+  }
+
+  header nav ul {
+      width: ;
+      justify-content: center;
+  }
+
+  .header-divider {
+    display: none;
+  }
+
+  .hero-area {
+
+  }
+
+  aside .content-wrapper {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width:
+    margin: 0;
+  }
+
+  .features article {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    flex-basis: auto;
+  }
+
+  .features .features-item-description {
+    width:
+  }
+
+  .reviews article {
+    display: flex;
+    justify-content: center;
+  }
+
+  .reviews article div {
+    width:
+  }
+
+  footer .content-wrapper {
+    width:
+    margin: 100px 0;
+  }
+
+  .footer-content {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .copyright {
+    width:
+  }
+
+  .mission-content {
+    display:
+    justify-content: space-between;
+    align-items:
+  }
+
+  .mission-content p {
+    width:
+  }
+
+  .contact-section .content-wrapper h2 {
+    width:
+  }
+
+  .contact-content {
+    display:
+    justify-content:
+    align-items:
+  }
+
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq-content {
+    flex-basis: 40%;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
+}
 }
 
 /* ==========================================================================
